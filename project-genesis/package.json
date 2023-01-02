@@ -1,0 +1,12 @@
+{
+  "name": "project-genesis",
+  "version": "1.0.0",
+  "description": "This project contains helpful starter node projects needed for buidling enterprice softwares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
