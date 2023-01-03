@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
         res.write('<head><title>Node Js Simple User Server</title></head>');
         res.write('<body> ' +
                     '<h1>Hello, welcome to my page.</h1>' +
-                    '<p>This page enables you to create a user that gets logged to the console.</p>' + 
+                    '<p>This page enables you to create a user that gets logged to the console!</p>' + 
                     '<form action="/create-user" method="POST">' +
                         '<label for="username">username</label>' +
                         '<input type="text" id="username" name="username">' +
