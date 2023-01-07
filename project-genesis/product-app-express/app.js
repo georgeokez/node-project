@@ -17,7 +17,8 @@ app.use(adminRoutes.routes);
 app.use(shopRoutes);
 
 app.use("/", (req, res, next) => {
-  res.status(404).sendFile(path.join(rootDir, "views", "404Page.html"));
+  //res.status(404).sendFile(path.join(rootDir, "views", "404Page.html"));
+  res.status(404).render("404Page");
 });
 
 app.listen(3000);
